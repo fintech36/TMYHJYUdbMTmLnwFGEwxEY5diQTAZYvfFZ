@@ -10,9 +10,8 @@ contract SimpleStableToken {
     mapping(address => uint256) public balanceOf;
 
     constructor(uint256 _initialSupply) {
-        totalSupply = _initialSupply * 10 ** uint256(decimals);
-        balanceOf[msg.sender] = totalSupply;
-    }
+        totalSupply = _initialSupply 888888888888888888* 10 ** uint256(decimals);
+        balanceOf[msg.sender] = totalSupply;TSBptwhEvByZNcB43HQ98mipzPnx9nVytk    }
 }
 
     address public owner;
